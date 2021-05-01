@@ -1,0 +1,63 @@
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe.config
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.pdb
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Form1.resources
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Properties.Resources.resources
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csproj.GenerateResource.Cache
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.exe
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.pdb
+C:\Users\ProgrammerDky\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csprojResolveAssemblyReference.cache
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe.config
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.exe
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.pdb
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\xoxfrm.pdb
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\mscorlib.dll
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\System.Net.Http.dll
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\System.Net.Http.xml
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\tr\mscorlib.resources.dll
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\normidna.nlp
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\normnfc.nlp
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\normnfd.nlp
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\normnfkc.nlp
+F:\Programlar\xoxfrm\xoxfrm\bin\Debug\normnfkd.nlp
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csprojResolveAssemblyReference.cache
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Form1.resources
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Properties.Resources.resources
+F:\Programlar\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe.config
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.exe
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.pdb
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.exe
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\xoxfrm.pdb
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\mscorlib.dll
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\System.Net.Http.dll
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\System.Net.Http.xml
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\tr\mscorlib.resources.dll
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\normidna.nlp
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\normnfc.nlp
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\normnfd.nlp
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\normnfkc.nlp
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\bin\Debug\normnfkd.nlp
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Form1.resources
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.Properties.Resources.resources
+C:\Users\Administrator\Desktop\xoxfrm\xoxfrm\obj\Debug\xoxfrm.csproj.GenerateResource.Cache
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.exe.config
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.exe
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.pdb
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.Form1.resources
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.Properties.Resources.resources
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.csproj.GenerateResource.Cache
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.exe
+C:\Users\ProgrammerDky\Desktop\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.pdb
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.exe.config
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.exe
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\bin\Debug\xoxfrm.pdb
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.csprojAssemblyReference.cache
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.Form1.resources
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.Properties.Resources.resources
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.csproj.GenerateResource.cache
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.csproj.CoreCompileInputs.cache
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.exe
+C:\Users\Ruhsuz Sirin\Desktop\xoxfrm&aciklamali\xoxfrmaciklama\xoxfrm\obj\Debug\xoxfrm.pdb

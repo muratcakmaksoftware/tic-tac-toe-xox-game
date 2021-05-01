@@ -1,0 +1,295 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace xoxfrm
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        Random rasgele = new Random();
+        string[,] btnisim = new string[3, 3];
+        string[,] tablo = new string[3, 3];
+        int[,] btnckn = new int[9, 3];
+        string o;
+        int i = 0, d = 0;
+        bool drm = false;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Başlangıç rasgele oyunumuzu başlatalım.
+            i = 0; d = 0;
+            
+            foreach (Control c in this.Controls)
+            {
+                if (c.GetType() == typeof(Button))
+                {
+                    btnisim[i,d] = c.Name.ToString();
+                    d++;
+                }
+
+                if (d == 3)
+                {
+                    d = 0;
+                    i++;
+                }
+            }            
+
+            // Form Açılış otomatik başlama
+            drm = true;
+            while (drm)
+            {
+               drm = !nextMove();
+            }
+            tabloUpdate();
+            
+        }
+
+        private bool nextMove()
+        {
+            
+            int x = rasgele.Next(0, 3);
+            int y = rasgele.Next(0, 3);
+            
+            for (i = 0; i < btnckn.Length / 3; i++)
+            {
+                if (btnckn[i, 0] == x && btnckn[i, 1] == y)
+                    return false;
+            }
+
+            if (tablo[x, y] == "X" || tablo[x, y] == "O")
+                return false;
+            
+            for (int i = 0; i < btnckn.Length / 3; i++)
+            {
+                if (btnckn[i, 2] == 0)
+                {
+                    btnckn[i, 0] = x;
+                    btnckn[i, 1] = y;
+                }
+            }
+
+            o = btnisim[x, y];
+            foreach (Control c in this.Controls)
+            {
+                if (c.GetType() == typeof(Button))
+                {
+
+                    if (c.Name == o)
+                        c.Text = "O";
+                }
+            }
+
+            return true;
+        }
+        
+        private string playCheck(string player)
+        {
+            
+            string krk = "", drmply = "";
+            int dogrulama = 0, oyundurumu = 0;
+
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                krk = tablo[i, 0];
+                for (d = (tablo.Length / 3) - 1; d >= 0; d--)
+                {
+                    if (tablo[i, d] == "X" || tablo[i, d] == "O")
+                    {
+                        oyundurumu++;
+                    }
+                }
+            }
+
+            if (oyundurumu >= 9)
+            {
+                drmply = "Oyun Bitti";
+            }
+
+            //yatay kontrol
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                for (d = (tablo.Length / 3) - 1; d >= 0; d--)
+                {
+                    if(tablo[i, d] == player) // "X"
+                    {
+                        dogrulama++;
+                    }
+                    if (dogrulama == 3)
+                    {
+                        drmply = "WON";
+                        break;
+                    }
+                }
+                dogrulama = 0;
+            }
+
+            if (dogrulama != 3)
+                dogrulama = 0;
+
+            //dikey kontrol
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                for (d = (tablo.Length / 3) - 1; d >= 0; d--)
+                {
+                    if (tablo[d, i] == player) 
+                    {
+                        dogrulama++;
+                    }
+                    if (dogrulama == 3)
+                    {
+                        drmply = "WON";
+                        break;
+                    }
+                }
+                dogrulama = 0;
+            }
+
+            if (dogrulama != 3)
+                dogrulama = 0;
+
+            //capraz sag dogru
+            d = 2;
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                if (tablo[i, d] == player)
+                {                    
+                    dogrulama++;
+                }
+                if (dogrulama == 3)
+                {
+                    drmply = "WON";
+                    break;
+                }
+                d--;
+            }
+
+            if (dogrulama != 3)
+                dogrulama = 0;
+
+            //capraz sol dogru
+            d = 0;
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                //MessageBox.Show(tablo[i, d]);
+                if (tablo[i, d] == player)
+                {
+                    dogrulama++;
+                }
+                if (dogrulama == 3)
+                {
+                    drmply = "WON";
+                    break;
+                }
+                d++;
+            }
+
+            
+
+            return drmply;           
+        }
+
+        private void tabloUpdate()
+        {
+            i = 0; d = 0;
+            foreach (Control c in this.Controls)
+            {
+                if (c.GetType() == typeof(Button))
+                {
+                    tablo[i, d] = c.Text.ToString();
+                    d++;
+                }
+
+                if (d == 3)
+                {
+                    d = 0;
+                    i++;
+                }
+            }
+        }
+
+        private void tabloYazdir()
+        {
+
+            for (i = (tablo.Length / 3) - 1; i >= 0; i--)
+            {
+                for (d = (tablo.Length / 3) - 1; d >= 0; d--)
+                {
+                    MessageBox.Show(tablo[i, d]); 
+                }
+            }
+        }
+
+        private void oyunuSifirla()
+        {
+            foreach (Control c in this.Controls)
+                if (c.GetType() == typeof(Button))
+                    c.Text = "";
+
+            tablo = new string[3, 3];
+            btnckn = new int[9, 3];
+            drm = true;
+            while (drm)
+            {
+                drm = !nextMove();
+            }
+            tabloUpdate();
+
+            
+        }
+
+        string drmoyn = "";
+        private void btnEvents(object sender, EventArgs e)
+        {
+
+            if (sender.GetType() == typeof(Button))
+            {
+                if (((Button)sender).Text == "")
+                {
+                    drmoyn = "";
+                    ((Button)sender).Text = "X"; // benim oynadığım.
+
+                    tabloUpdate(); // tablo durumunu güncelle
+                    drmoyn = playCheck("X"); // ben oynadıktan sonra kontrol
+                    if (drmoyn == "WON")
+                    {
+                        MessageBox.Show("X Kazandınız");
+                        oyunuSifirla();
+                        return;
+                    }
+                    
+
+                    // bot oynuyor
+                    drm = true;
+                    while (drm)
+                    {
+                        drm = !nextMove();
+                    }
+                    tabloUpdate();
+                    drmoyn = playCheck("O");// bot oynadıktan sonra kontrol.
+                    if (drmoyn == "WON")
+                    {
+                        MessageBox.Show("O Kazandınız");
+                        oyunuSifirla();
+                    }
+                    else if (drmoyn == "Oyun Bitti")
+                    {
+                        MessageBox.Show("Berabere Kalındı.");
+                        oyunuSifirla();
+                    }
+
+                }
+                    
+            }
+        }
+    }
+}
